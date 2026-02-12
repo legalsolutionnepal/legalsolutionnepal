@@ -9,7 +9,7 @@ import Contact from "./pages/Contact";
 
 const App = () => {
   return (
-    <Router basename="/legalsolutionnepal/">
+    <Router basename="/home/">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
