@@ -15,23 +15,23 @@ export default function Expertise() {
   ];
 
   const galleryImages = [
-    { id: 1, url: "/expertise/1.webp", alt: "Gallery Image 1" },
-    { id: 2, url: "/expertise/2.webp", alt: "Gallery Image 2" },
-    { id: 3, url: "/expertise/3.webp", alt: "Gallery Image 3" },
-    { id: 4, url: "/expertise/4.webp", alt: "Gallery Image 4" },
-    { id: 5, url: "/expertise/5.webp", alt: "Gallery Image 5" },
-    { id: 6, url: "/expertise/6.webp", alt: "Gallery Image 6" },
-    { id: 7, url: "/expertise/7.webp", alt: "Gallery Image 7" },
-    { id: 8, url: "/expertise/8.webp", alt: "Gallery Image 8" },
-    { id: 9, url: "/expertise/9.webp", alt: "Gallery Image 9" },
-    { id: 10, url: "/expertise/10.webp", alt: "Gallery Image 10" },
-    { id: 11, url: "/expertise/11.webp", alt: "Gallery Image 11" },
-    { id: 12, url: "/expertise/12.webp", alt: "Gallery Image 12" },
-    { id: 13, url: "/expertise/13.webp", alt: "Gallery Image 13" },
-    { id: 14, url: "/expertise/14.webp", alt: "Gallery Image 14" },
-    { id: 15, url: "/expertise/15.webp", alt: "Gallery Image 15" },
-    { id: 16, url: "/expertise/16.webp", alt: "Gallery Image 16" },
-    { id: 17, url: "/expertise/17.webp", alt: "Gallery Image 17" },
+    { id: 1, url: `${import.meta.env.BASE_URL}expertise/1.webp`, alt: "Gallery Image 1" },
+    { id: 2, url: `${import.meta.env.BASE_URL}expertise/2.webp`, alt: "Gallery Image 2" },
+    { id: 3, url: `${import.meta.env.BASE_URL}expertise/3.webp`, alt: "Gallery Image 3" },
+    { id: 4, url: `${import.meta.env.BASE_URL}expertise/4.webp`, alt: "Gallery Image 4" },
+    { id: 5, url: `${import.meta.env.BASE_URL}expertise/5.webp`, alt: "Gallery Image 5" },
+    { id: 6, url: `${import.meta.env.BASE_URL}expertise/6.webp`, alt: "Gallery Image 6" },
+    { id: 7, url: `${import.meta.env.BASE_URL}expertise/7.webp`, alt: "Gallery Image 7" },
+    { id: 8, url: `${import.meta.env.BASE_URL}expertise/8.webp`, alt: "Gallery Image 8" },
+    { id: 9, url: `${import.meta.env.BASE_URL}expertise/9.webp`, alt: "Gallery Image 9" },
+    { id: 10, url: `${import.meta.env.BASE_URL}expertise/10.webp`, alt: "Gallery Image 10" },
+    { id: 11, url: `${import.meta.env.BASE_URL}expertise/11.webp`, alt: "Gallery Image 11" },
+    { id: 12, url: `${import.meta.env.BASE_URL}expertise/12.webp`, alt: "Gallery Image 12" },
+    { id: 13, url: `${import.meta.env.BASE_URL}expertise/13.webp`, alt: "Gallery Image 13" },
+    { id: 14, url: `${import.meta.env.BASE_URL}expertise/14.webp`, alt: "Gallery Image 14" },
+    { id: 15, url: `${import.meta.env.BASE_URL}expertise/15.webp`, alt: "Gallery Image 15" },
+    { id: 16, url: `${import.meta.env.BASE_URL}expertise/16.webp`, alt: "Gallery Image 16" },
+    { id: 17, url: `${import.meta.env.BASE_URL}expertise/17.webp`, alt: "Gallery Image 17" },
   ];
 
   return (
@@ -72,7 +72,7 @@ export default function Expertise() {
               <div className="w-full lg:w-auto lg:max-w-md">
                 <div className="bg-zinc-200 rounded-3xl overflow-hidden shadow-2xl shadow-gray-400">
                   <img
-                    src="/expertise/expertise.webp"
+                    src={`${import.meta.env.BASE_URL}expertise/expertise.webp`}
                     alt="Mr. Gopal Pandey"
                     className="w-full h-auto object-cover"
                   />

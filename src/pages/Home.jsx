@@ -15,7 +15,7 @@ export default function Home() {
             </h1>
           </div>
           <img
-            src="/home/people.webp"
+            src={`${import.meta.env.BASE_URL}home/people.webp`}
             alt="Logo"
             className="bg-black p-4 md:p-7 rounded-4xl w-full md:w-auto max-w-xl"
           />
@@ -23,7 +23,7 @@ export default function Home() {
 
         <div className="w-full h-[60vh] bg-zinc-100 rounded-4xl overflow-hidden relative group">
           <img
-            src="/home/law.webp"
+            src={`${import.meta.env.BASE_URL}home/law.webp`}
             alt="Legal Office"
             className="w-full h-full object-fill transition-transform duration-700 group-hover:scale-105"
           />
@@ -64,7 +64,7 @@ export default function Home() {
             </p>
             <div className="bg-neutral-200 rounded-4xl w-full lg:w-auto hrink-0">
               <img
-                src="/home/welcome.webp"
+                src={`${import.meta.env.BASE_URL}home/welcome.webp`}
                 alt="welcome"
                 className="rounded-4xl w-full lg:w-auto lg:h-75"
               />
@@ -142,7 +142,7 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row items-start justify-between gap-6 lg:gap-4">
             <div className="p-2 md:p-4 w-full lg:-ml-5">
               <img
-                src="/home/lawyer.jpg"
+                src={`${import.meta.env.BASE_URL}home/lawyer.jpg`}
                 alt="lawyer"
                 className="rounded-4xl shadow-2xl shadow-gray-600 w-full"
               />
